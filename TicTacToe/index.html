@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>TicTacToe</title>
+</head>
+<body>
+    <h1 class="title">TIC-TAC-TOE</h1>
+    <div class="board">
+        <div class="row">
+            <div id="cell1" class="cell b-right" onclick="click_cell(1)"></div>
+            <div id="cell2" class="cell b-right" onclick="click_cell(2)"></div>
+            <div id="cell3" class="cell" onclick="click_cell(3)"></div>
+        </div>
+        <div class="row b-top">
+            <div id="cell4" class="cell b-right" onclick="click_cell(4)"></div>
+            <div id="cell5" class="cell b-right" onclick="click_cell(5)"></div>
+            <div id="cell6" class="cell" onclick="click_cell(6)"></div>
+        </div>
+        <div class="row b-top">
+            <div id="cell7" class="cell b-right" onclick="click_cell(7)"></div>
+            <div id="cell8" class="cell b-right" onclick="click_cell(8)"></div>
+            <div id="cell9" class="cell" onclick="click_cell(9)"></div>
+        </div>
+    </div>
+    <div class="content">
+        <h1 id="result"></h1>
+        <a class="reset" onclick="reset()">Reset</a>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
